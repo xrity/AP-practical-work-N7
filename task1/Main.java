@@ -6,6 +6,7 @@ public class Main{
         int size = 5;
         int pyramid[][] = new int[size][];
         int k = 1;
+        
         for(int i=0; i < size; i++){
             pyramid[i] = new int[i + k++];
         }
